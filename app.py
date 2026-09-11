@@ -24,7 +24,7 @@ if st.session_state.page == 1:
     st.subheader("Project Team")
 
     st.write("👨‍🎓 **Engineering :** Mamdouh Fawzi Abdulfattah— **Academic ID:** 202174316")
-    st.write("👨‍🎓 **Student 2:** Osama Alansi— **Academic ID:** 202374...")
+    st.write("👨‍🎓 **Engineering :** Osama Alansi— **Academic ID:** 202374...")
 
     st.write("")
     st.subheader("Supervisor")
