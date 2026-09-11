@@ -16,20 +16,20 @@ if st.session_state.page == 1:
 
     st.title("⚙️ Predictive Maintenance AI")
 
-    st.markdown("---")
+    st.markdown("---")ذ/
 
     st.header("Predictive Maintenance Project")
 
     st.write("")
     st.subheader("Project Team")
 
-    st.write("👨‍🎓 **Student 1:** اسمك هنا — **Academic ID:** الرقم الأكاديمي هنا")
-    st.write("👨‍🎓 **Student 2:** اسم صاحبك هنا — **Academic ID:** الرقم الأكاديمي هنا")
+    st.write("👨‍🎓 **Engineering :** Mamdouh Fawzi Abdulfattah— **Academic ID:** 202174316")
+    st.write("👨‍🎓 **Student 2:** Osama Alansi— **Academic ID:** 202374...")
 
     st.write("")
     st.subheader("Supervisor")
 
-    st.write("👩‍🏫 **Supervisor:** اسم المعيدة هنا")
+    st.write("👩‍🏫 **Supervisor:** Eng.Asma AL.arege")
 
     st.write("")
     st.markdown("---")
