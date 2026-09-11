@@ -32,7 +32,7 @@ input_data = pd.DataFrame([{
 }])
 
 if st.button("Predict Failure", type="primary"):
-    prediction = int(model.predict(input_data)[0])
+    prediction = int(model.predict(input_data.values)[0])
     st.divider()
     if prediction == 1:
         st.error("⚠️ Failure predicted")
@@ -40,7 +40,7 @@ if st.button("Predict Failure", type="primary"):
         st.success("✅ No failure predicted")
 
     if hasattr(model, "predict_proba"):
-        probability = float(model.predict_proba(input_data)[0, 1])
+        probability = float(model.predict_proba(input_data.values)[0, 1])
         st.metric("Estimated failure probability", f"{probability:.1%}")
 
 st.caption("Educational project — prediction is based on the trained dataset model.")
