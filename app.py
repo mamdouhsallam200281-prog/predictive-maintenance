@@ -16,7 +16,7 @@ if st.session_state.page == 1:
 
     st.title("⚙️ Predictive Maintenance AI")
 
-    st.markdown("---")ذ/
+    st.markdown("---")
 
     st.header("Predictive Maintenance Project")
 
